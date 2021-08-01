@@ -2,7 +2,15 @@
   box-sizing: border-box;
 }
 
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  color: #ff4532;
+  font-size: 50px;
+}
+
 body{
+  
   margin: 0;
   padding: 0;
   font-family: "Comic Sans MS";
@@ -17,14 +25,15 @@ body{
   overflow: none;
   text-align: center;
   border: 4px solid black;
+  width: 100px;
+  height: 40px;
+  padding: 5px;
   float: right;
   margin-right: 36px;
   margin-top: 0px;
   font-weight: bold;
   position: relative;
-  width: 100px;
-  height: 40px;
-  padding: 5px;
+ 
 }
 
 .d1{
@@ -42,7 +51,7 @@ body{
 .para{
   border: 5px solid black;
   width: 90%;
-  height: 40px;
+  height: auto;
   margin: 2.5%;
   color: black
   font-size: 25px;
@@ -51,12 +60,7 @@ body{
   background-color: #808080;
 }
 
-h1 {
-  margin-bottom: 15px;
-  text-align: center;
-  color: #ff4532;
-  font-size: 50px;
-}
+
 
 /** Large devices **/
 @media (min-width: 992px) {
